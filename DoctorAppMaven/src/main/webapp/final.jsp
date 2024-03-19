@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="delete">
-<input type="text" name="doctorId" placeholder="Please enter doctorId ">
-<input type="submit" value="Click here to delete">
-</form>
+${doctor.doctorName }
+${doctor.doctorId }
+${doctor.speciality }
+${doctor.fees }
+${doctor.rating }
+${doctor.experience }
+
 </body>
 </html>

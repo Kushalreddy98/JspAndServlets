@@ -16,9 +16,9 @@
 		${doctor.experience }<br>
 
 		Enter doctorName<input type="text" value="${doctor.doctorName }" readonly="readonly"> <br>
-		Enter doctorId<input type="text" value="${doctor.doctorId }" readonly="readonly"><br>
+		Enter doctorId<input type="number" value="${doctor.doctorId }" name="docterId" readonly="readonly"><br>
 		Enter Speciality<input type="text" value="${doctor.speciality }" readonly="readonly"> <br>
-		Enter fees<input type="number" value="${doctor.fees }"><br>
+		Enter fees<input type="number" value="${doctor.fees }" name="fees"><br>
 		Enter ratings<input type="text" value="${doctor.ratings }" readonly="readonly"> <br>
 		Enter Experience<input type="text" value="${doctor.experience }" readonly="readonly"> <br>
 		

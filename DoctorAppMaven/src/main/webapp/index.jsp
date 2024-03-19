@@ -8,9 +8,11 @@
 </head>
 <body>
 	<h3>Search Doctor by Speciality</h3>
+	<form action="search">
 	Enter Speciality
 	<input type="text" name="speciality" placeholder="search">
 	<button type="submit">Search</button><br>
+	</form>
 	<a href="login.jsp">Admin</a>
 </body>
 </html>	
